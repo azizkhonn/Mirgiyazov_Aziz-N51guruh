@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: black;
+}
+
+.main-btn {
+  width: 150px;
+  margin: 300px auto;
+}
+
+.btn {
+  padding: 17px 35px 12px 37px;
+  background-color: gold;
+  text-align: center;
+  color: black;
+  transition: 0.5s;
+  border: 2px solid gold;
+  
+  &:hover {
+    border: 2px solid gold;
+    background-color: black;
+    color: #fff;
+  }
+}
+
